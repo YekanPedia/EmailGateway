@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DAB1B6BF-156D-4A88-B183-7F729026468F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{E8D627C5-D4DE-4CD9-9351-8BFF638E3D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.EmailGateway.Proxy", "YekanPedia.EmailGateway.Proxy\YekanPedia.EmailGateway.Proxy.csproj", "{53E5B7C6-2709-4A96-8512-9EFDF9A60493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53E5B7C6-2709-4A96-8512-9EFDF9A60493} = {E8D627C5-D4DE-4CD9-9351-8BFF638E3D86}
+	EndGlobalSection
+EndGlobal
