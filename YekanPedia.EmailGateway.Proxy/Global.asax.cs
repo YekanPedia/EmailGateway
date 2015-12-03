@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using YekanPedia.EmailGateway.DependencyResolver;
 
 namespace YekanPedia.EmailGateway.Proxy
 {
@@ -13,6 +14,12 @@ namespace YekanPedia.EmailGateway.Proxy
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            IocInitializer.Initialize();
+        }
+
+        protected void Application_EndRequest(object sender, EventArgs e)
+        {
+            IocInitializer.HttpContextDisposeAndClearAll();
         }
     }
 }

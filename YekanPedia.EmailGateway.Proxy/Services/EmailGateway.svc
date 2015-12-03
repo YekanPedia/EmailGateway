@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="YekanPedia.EmailGateway.Proxy.Services.EmailGateway" CodeBehind="EmailGateway.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="YekanPedia.EmailGateway.Proxy.Services.EmailGateway" CodeBehind="EmailGateway.svc.cs" Factory="YekanPedia.EmailGateway.DeoendencyResolver.ServiceFactory.WcfServiceFactory" %>

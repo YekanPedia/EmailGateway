@@ -9,6 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{E8D6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.EmailGateway.Proxy", "YekanPedia.EmailGateway.Proxy\YekanPedia.EmailGateway.Proxy.csproj", "{53E5B7C6-2709-4A96-8512-9EFDF9A60493}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.EmailGateway.Data", "YekanPedia.EmailGateway.Data\YekanPedia.EmailGateway.Data.csproj", "{595351C1-2C60-4811-BC6E-BBE45C047F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.EmailGateway.Service", "YekanPedia.EmailGateway.Service\YekanPedia.EmailGateway.Service.csproj", "{A2B46DCC-25B8-4B10-A4B9-614CA3069FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.EmailGateway.Domain", "YekanPedia.EmailGateway.Domain\YekanPedia.EmailGateway.Domain.csproj", "{B98BACB6-725D-46E4-99D1-68299B31821D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YekanPedia.EmailGateway.DependencyResolver", "YekanPedia.EmailGateway.DependencyResolver\YekanPedia.EmailGateway.DependencyResolver.csproj", "{81E7EBD3-C3EB-458E-93E8-057B1A8A6071}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +27,31 @@ Global
 		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E5B7C6-2709-4A96-8512-9EFDF9A60493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595351C1-2C60-4811-BC6E-BBE45C047F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595351C1-2C60-4811-BC6E-BBE45C047F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595351C1-2C60-4811-BC6E-BBE45C047F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595351C1-2C60-4811-BC6E-BBE45C047F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B46DCC-25B8-4B10-A4B9-614CA3069FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B46DCC-25B8-4B10-A4B9-614CA3069FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B46DCC-25B8-4B10-A4B9-614CA3069FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B46DCC-25B8-4B10-A4B9-614CA3069FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98BACB6-725D-46E4-99D1-68299B31821D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98BACB6-725D-46E4-99D1-68299B31821D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98BACB6-725D-46E4-99D1-68299B31821D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98BACB6-725D-46E4-99D1-68299B31821D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E7EBD3-C3EB-458E-93E8-057B1A8A6071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E7EBD3-C3EB-458E-93E8-057B1A8A6071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E7EBD3-C3EB-458E-93E8-057B1A8A6071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E7EBD3-C3EB-458E-93E8-057B1A8A6071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{53E5B7C6-2709-4A96-8512-9EFDF9A60493} = {E8D627C5-D4DE-4CD9-9351-8BFF638E3D86}
+		{595351C1-2C60-4811-BC6E-BBE45C047F8D} = {DAB1B6BF-156D-4A88-B183-7F729026468F}
+		{A2B46DCC-25B8-4B10-A4B9-614CA3069FDF} = {DAB1B6BF-156D-4A88-B183-7F729026468F}
+		{B98BACB6-725D-46E4-99D1-68299B31821D} = {DAB1B6BF-156D-4A88-B183-7F729026468F}
+		{81E7EBD3-C3EB-458E-93E8-057B1A8A6071} = {DAB1B6BF-156D-4A88-B183-7F729026468F}
 	EndGlobalSection
 EndGlobal

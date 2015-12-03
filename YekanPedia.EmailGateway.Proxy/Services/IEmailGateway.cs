@@ -8,6 +8,6 @@
     public interface IEmailGateway
     {
         [OperationContract(IsOneWay = true)]
-        void SendSimpleEmail(List<EmailModel> model);
+        void SendSimpleEmail(EmailModel model);
     }
 }
