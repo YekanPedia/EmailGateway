@@ -18,10 +18,10 @@
         {
             _aboutUsService = aboutUsService;
         }
+
         const string smtpAddress = "mail.yekanpedia.org";
         const int portNumber = 25;
         const bool enableSSL = false;
-        const string emailFrom = "support@yekanpedia.org";
         const string password = "sp123!@#";
 
         public void SendSimpleEmail(EmailModel model)
@@ -49,7 +49,7 @@
                                .Replace("{{Facebook}}", aboutUs?.Facebook)
                                .Replace("{{LinkedIn}}", aboutUs?.LinkedIn)
                                .Replace("{{Twitter}}", aboutUs?.Twitter)
-                               .Replace("{{Telegram}}", aboutUs?.Telegram)                               ;
+                               .Replace("{{Telegram}}", aboutUs?.Telegram);
                     AlternateView plainView = AlternateView.CreateAlternateViewFromString(Regex.Replace(body, @"<(.|\n)*?>", string.Empty), null, "text/plain");
                     AlternateView htmlView = AlternateView.CreateAlternateViewFromString(body, null, "text/html");
                     mail.AlternateViews.Add(plainView);
@@ -59,7 +59,7 @@
                 mail.IsBodyHtml = true;
                 using (SmtpClient smtp = new SmtpClient(smtpAddress, portNumber))
                 {
-                    smtp.Credentials = new NetworkCredential(emailFrom, password);
+                    smtp.Credentials = new NetworkCredential(aboutUs.Email, password);
                     smtp.EnableSsl = enableSSL;
                     smtp.Send(mail);
                 }
